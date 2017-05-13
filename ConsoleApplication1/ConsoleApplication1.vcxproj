@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{118C8C27-2A45-484B-A09F-6EAEA0C3B4FF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ConsoleApplication1</RootNamespace>
+    <ProjectName>歌曲管理系统</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <EnablePREfast>true</EnablePREfast>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>
+      </StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="convert.h" />
+    <ClInclude Include="mainUI.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="login.h" />
+    <ClInclude Include="listnode.h" />
+    <ClInclude Include="sequences.h" />
+    <ClInclude Include="search.h" />
+    <ClInclude Include="count.h" />
+    <ClInclude Include="linktofile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="歌曲管理系统.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="convert.cpp" />
+    <ClCompile Include="mainUI.cpp" />
+    <ClCompile Include="listnode.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="login.cpp" />
+    <ClCompile Include="sequence.cpp" />
+    <ClCompile Include="search.cpp" />
+    <ClCompile Include="count.cpp" />
+    <ClCompile Include="linktofile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ico\128.ico" />
+    <Image Include="ico\16.ico" />
+    <Image Include="ico\256.ico" />
+    <Image Include="ico\32.ico" />
+    <Image Include="ico\64.ico" />
+    <Image Include="ico\ico.ico" />
+    <Image Include="image\background.bmp" />
+    <Image Include="image\buttonleft.bmp" />
+    <Image Include="image\buttonright.bmp" />
+    <Image Include="image\changepath.bmp" />
+    <Image Include="image\clearname.bmp" />
+    <Image Include="image\cleartime.bmp" />
+    <Image Include="image\clearvol.bmp" />
+    <Image Include="image\convert.bmp" />
+    <Image Include="image\count.bmp" />
+    <Image Include="image\counthalf.bmp" />
+    <Image Include="image\cover.bmp" />
+    <Image Include="image\down.bmp" />
+    <Image Include="image\ff.bmp" />
+    <Image Include="image\homelight.bmp" />
+    <Image Include="image\homelight1.bmp" />
+    <Image Include="image\ico.bmp" />
+    <Image Include="image\icosmall.bmp" />
+    <Image Include="image\list.bmp" />
+    <Image Include="image\login.bmp" />
+    <Image Include="image\login.jpg" />
+    <Image Include="image\loginico.bmp" />
+    <Image Include="image\name.bmp" />
+    <Image Include="image\next.bmp" />
+    <Image Include="image\pause.bmp" />
+    <Image Include="image\pauselight.bmp" />
+    <Image Include="image\play.bmp" />
+    <Image Include="image\playback.bmp" />
+    <Image Include="image\player.bmp" />
+    <Image Include="image\playerback.bmp" />
+    <Image Include="image\playeremp.bmp" />
+    <Image Include="image\playerhalf.bmp" />
+    <Image Include="image\playerpause.bmp" />
+    <Image Include="image\playerplay.bmp" />
+    <Image Include="image\pressconvert.bmp" />
+    <Image Include="image\presscount.bmp" />
+    <Image Include="image\pressplayer.bmp" />
+    <Image Include="image\presssearch.bmp" />
+    <Image Include="image\presssequence.bmp" />
+    <Image Include="image\previous.bmp" />
+    <Image Include="image\rewind.bmp" />
+    <Image Include="image\seapage.bmp" />
+    <Image Include="image\search.bmp" />
+    <Image Include="image\searchhalf1.bmp" />
+    <Image Include="image\searchhalf2.bmp" />
+    <Image Include="image\seatpage.bmp" />
+    <Image Include="image\seqpage.bmp" />
+    <Image Include="image\sequence.bmp" />
+    <Image Include="image\sequencehalf.bmp" />
+    <Image Include="image\shutdown.bmp" />
+    <Image Include="image\shutlight.bmp" />
+    <Image Include="image\signupico.bmp" />
+    <Image Include="image\singer.bmp" />
+    <Image Include="image\title.bmp" />
+    <Image Include="image\titlesmall.bmp" />
+    <Image Include="image\up.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\click.wav" />
+    <Media Include="sound\loginBGM.mp3" />
+    <Media Include="sound\mouse.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="歌曲管理系统.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ico\image2.bin" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

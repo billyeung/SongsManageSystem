@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="convert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mainUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="listnode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="count.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linktofile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sequences.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="歌曲管理系统.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="convert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mainUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="listnode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="login.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="count.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linktofile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\login.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\login.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\background.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\buttonleft.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\buttonright.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\changepath.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\clearname.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\cleartime.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\clearvol.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\convert.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\count.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\counthalf.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\cover.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\down.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\ff.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\homelight.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\homelight1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\ico.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\icosmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\list.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\loginico.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\name.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\next.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\pause.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\pauselight.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\play.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\playback.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\player.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\playerback.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\playeremp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\playerhalf.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\playerpause.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\playerplay.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\pressconvert.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\presscount.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\pressplayer.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\presssearch.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\presssequence.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\previous.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\rewind.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\seapage.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\search.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\searchhalf1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\searchhalf2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\seqpage.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\sequence.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\sequencehalf.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\shutdown.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\shutlight.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\signupico.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\singer.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\titlesmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\up.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ico\16.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ico\32.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ico\64.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ico\128.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ico\256.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="ico\ico.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\seatpage.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\click.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="sound\loginBGM.mp3" />
+    <Media Include="sound\mouse.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="歌曲管理系统.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ico\image2.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

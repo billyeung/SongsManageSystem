@@ -1,0 +1,23 @@
+for (int i = 0; i <= 255; i++){
+	setbkcolor(RGB(i, i, i));
+	cleardevice();
+	Sleep(5);
+}
+
+
+
+setcolor(GREEN);			// 设置绘图颜色
+setorigin(320, 240);		// 设置原点坐标
+// 画花朵
+double e;
+int x1, y1, x2, y2;
+for (double a = 0; a < 2 * PI; a += 2 * PI / 720){
+	e = 50 * (1 + sin(4 * a));
+	x1 = (int)(e * cos(a));
+	y1 = (int)(e * sin(a));
+	x2 = (int)(e * cos(a + PI / 5));
+	y2 = (int)(e * sin(a + PI / 5));
+	line(x1, y1, x2, y2);
+}
+setorigin(0, 0);
+getimage(&img1, 150, 70, 350, 350);
